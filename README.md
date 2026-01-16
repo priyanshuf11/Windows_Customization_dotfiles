@@ -1,7 +1,9 @@
-# desktop-rice
+# 🖥️ desktop-rice
 
-A minimal, glassy Windows desktop rice built around **YASB**, **Glaze WM**, and custom styling.
-Focused on clarity, smooth animations, and practical widgets without visual noise.
+A minimal, glassy **Windows desktop rice** built around **YASB**, **Glaze WM**, and obsessive attention to visual balance.  
+Designed for clarity, smooth animations, and productivity-first widgets without aesthetic clutter.
+
+> Function before fluff. Pretty comes second. Sometimes first.
 
 ![Desktop Preview](assets/screenshots/desktop.png)
 
@@ -9,22 +11,27 @@ Focused on clarity, smooth animations, and practical widgets without visual nois
 
 ## ✨ Features
 
-- Custom **YASB bar** with system stats and widgets
-- **Glaze WM** layout with clean spacing
-- Integrated **calendar**, **todo list**, and **pomodoro timer**
-- Styled **fastfetch** terminal with custom ASCII
-- **Flow Launcher** themed to match the setup
+- Custom **YASB bar** with system stats, media, and productivity widgets
+- **Glaze WM** layout with clean gaps and intentional spacing
+- Built-in **calendar**, **todo list**, and **pomodoro timer**
+- Themed **Fastfetch** with custom ASCII and color palette
+- **Flow Launcher** styled to match the overall glassy look
 - Minimal **power menu** and media controls
+- Custom **Oh My Posh** prompt (Capr4n-based, heavily tweaked)
+- Handy **shell scripts** for daily workflows
+- **Musikcube themes** aligned with the desktop palette
 
 ---
 
 ## 🧩 Components Used
 
-- YASB (Yet Another Status Bar)
-- Glaze WM
-- Fastfetch
-- Flow Launcher
-- Stylus (for UI theming)
+- **YASB** (Yet Another Status Bar)
+- **Glaze WM**
+- **Fastfetch**
+- **Oh My Posh**
+- **Flow Launcher**
+- **Stylus** (UI theming)
+- **Musikcube**
 
 ---
 
@@ -47,29 +54,20 @@ Focused on clarity, smooth animations, and practical widgets without visual nois
 ![Todo](assets/screenshots/todo.png)
 ![Pomodoro](assets/screenshots/pomodoro.png)
 
-### Glaze WM
-![Power Menu](assets/screenshots/glazeWM.png)
----
+### Glaze WM Layout
+![Glaze WM](assets/screenshots/glazeWM.png)
 
-## ⚙️ Setup
-
-1. Install the required tools listed above.
-2. Copy the configs from this repo:
-   - `yasb/` → YASB config directory
-   - `fastfetch/` → Fastfetch config directory
-3. Restart the bar / reload configs.
-
-Paths may vary depending on your setup.
+> Screenshots for **Oh My Posh**, **shell scripts**, and **Musikcube themes** will be added soon.
 
 ---
 
-## 📜 Notes
+## 📁 Repository Structure
 
-- Stylus themes included here belong to their respective authors.
-- Credit and source links are provided in `stylus/README.md`.
-
----
-
-## 📄 License
-
-MIT
+```text
+yasb/           # YASB configs
+fastfetch/      # Fastfetch config & ASCII
+oh-my-posh/     # Custom prompt theme
+scripts/        # Utility shell scripts
+musikcube/      # Musikcube themes
+stylus/         # Stylus UI themes
+assets/         # Screenshots & media
